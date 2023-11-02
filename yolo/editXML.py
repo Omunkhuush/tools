@@ -8,7 +8,6 @@ import cv2 as cv
 from os import listdir
 from os.path import isfile, join
 
-#mypath = "New_Data/Data/annotationsN/"
 imagesPath = "../fisheye_6class/Data/images/"
 annotationsPath = '../fisheye_6class/Data/annotations/'
 min_area = 1024 #784 #1024 18x18 28x28 32x32 

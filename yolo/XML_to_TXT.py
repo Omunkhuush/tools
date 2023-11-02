@@ -7,9 +7,9 @@ import cv2
 
 classes = ['Bus', 'Bike', 'Car', 'Pedestrian', 'Truck']
 
-annotationPath = "../newImages/annotations/"
-imagePath = '../newImages/images/'
-labelSavePath = '../newImages/labels/'
+annotationPath = "./annotations/"
+imagePath = './images/'
+labelSavePath = './labels/'
 
 xmlfiles = [f for f in listdir(annotationPath) if join(annotationPath, f)]
 objects = []

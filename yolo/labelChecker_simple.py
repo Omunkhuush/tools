@@ -4,10 +4,11 @@ import numpy as np
 from os import listdir
 from os.path import isfile, join, isdir
 import os.path
-folder = ''
-imagesPath = '../newImages/images/'
-labelPath = '../fisheye_5class_New/Data/labels/'
-savePath = '../fisheye_5class_New/Data/check/'
+
+folder = 'train' 
+imagesPath = '../newImages/'+folder+'/images/'
+labelPath = '../newImages/'+folder+'/labels/'
+savePath = '../newImages/'+folder+'/check/'
 #folders = [f for f in listdir(mypath) if isdir(join(mypath, f))]
 total = 0
 colors = [(0, 0, 255), (255, 0, 0), (0, 255, 0),
